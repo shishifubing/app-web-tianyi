@@ -1,5 +1,14 @@
 # [`app-web-tianyi`][repo]
 
+<!-- shields -->
+[![shield-abandoned]][repo]
+
+<!-- internal links -->
+
+<!-- external links -->
+[repo]: https://github.com/shishifubing-com/plugin-firefox-new-tab-bookmarks
+[shield-abandoned]: https://img.shields.io/badge/status-abandoned-red?style=for-the-badge
+
 <!-- internal links -->
 
 <!-- external links -->
@@ -7,10 +16,6 @@
 
 
 SPA CI/CD app
-
-# status
-
-abandoned
 
 there are too many great OSS CI/CD tools out there to make another,
 especially if there is nothing original in this one
