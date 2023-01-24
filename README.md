@@ -24,7 +24,7 @@ especially if there is nothing original in this one
 <!-- shield links -->
 
 [license-shield]: https://img.shields.io/github/license/shishifubing/app-web-tianyi.svg?style=for-the-badge
-[status-shield-abandoned]: https://img.shields.io/badge/status-abandoned-red?style=for-the-badge
+[status-abandoned-shield]: https://img.shields.io/badge/status-abandoned-red?style=for-the-badge
 
 ## overview
 
