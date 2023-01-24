@@ -1,18 +1,30 @@
-# [`app-web-tianyi`][repo]
+# [`app-web-tianyi`][repo-url]
 
 <!-- shields -->
-[![shield-abandoned]][repo]
 
-<!-- internal links -->
+[![AGPLv3.0 License][license-shield]][license-url]
+[![Status][status-abandoned-shield]][repo-url]
 
-<!-- external links -->
-[repo]: https://github.com/shishifubing-com/app-web-tianyi
-[shield-abandoned]: https://img.shields.io/badge/status-abandoned-red?style=for-the-badge
+<!-- description -->
 
 SPA CI/CD app
 
 there are too many great OSS CI/CD tools out there to make another,
 especially if there is nothing original in this one
+
+<!-- relative links -->
+
+<!-- project links -->
+
+[repo-url]: https://github.com/shishifubing-com/app-web-tianyi
+[license-url]: https://github.com/shishifubing/app-web-tianyi/blob/main/LICENSE
+
+<!-- external links -->
+
+<!-- shield links -->
+
+[license-shield]: https://img.shields.io/github/license/shishifubing/app-web-tianyi.svg?style=for-the-badge
+[status-shield-abandoned]: https://img.shields.io/badge/status-abandoned-red?style=for-the-badge
 
 ## overview
 
