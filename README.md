@@ -1,39 +1,41 @@
-# [`app-web-tianyi`][repo-url]
+<div align="center" markdown="1">
 
-<!-- shields -->
+# [`app-web-tianyi`][url-repo]
 
-[![AGPLv3.0 License][license-shield]][license-url]
-[![Status][status-abandoned-shield]][repo-url]
+[![License][shield-license]][url-license]
+[![Status][shield-status-abandoned]][url-repo]
 
-<!-- description -->
+SPA app for CI
 
-SPA CI/CD app
+</div>
 
-there are too many great OSS CI/CD tools out there to make another,
-especially if there is nothing original in this one
+# About The Project
+
+There are too many great open source CI/CD tools out there to make another one
 
 <!-- relative links -->
 
 <!-- project links -->
 
-[repo-url]: https://github.com/shishifubing-com/app-web-tianyi
-[license-url]: https://github.com/shishifubing/app-web-tianyi/blob/main/LICENSE
+[url-repo]: https://github.com/shishifubing/app-web-tianyi
+[url-license]: https://github.com/shishifubing/app-web-tianyi/blob/main/LICENSE
 
 <!-- external links -->
 
 <!-- shield links -->
 
-[license-shield]: https://img.shields.io/github/license/shishifubing/app-web-tianyi.svg?style=for-the-badge
-[status-abandoned-shield]: https://img.shields.io/badge/status-abandoned-red?style=for-the-badge
+[shield-license]: https://img.shields.io/github/license/shishifubing/app-web-tianyi.svg?style=for-the-badge
+[shield-status-abandoned]: https://img.shields.io/badge/status-abandoned-red?style=for-the-badge
 
-## overview
+## Architecture diagram
 
 ![overview](./docs/diagrams/app-web-tianyi.drawio.svg)
 
-## structure
+## Code structure
 
-clean architecture
-![image](https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg)
+Clean architecture
+
+![Clean architecture](https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg)
 
 ```
 tianyi
@@ -75,7 +77,7 @@ tianyi
 └── web (Web interface)
 ```
 
-## logo
+## Logo
 
 ![black logo](./web/public/images/logo-dark.svg)
 
@@ -85,12 +87,12 @@ they are made with [`google-font-to-svg-path`](https://danmarshall.github.io/goo
 using font
 [`zen-maru-gothic`](https://fonts.adobe.com/fonts/zen-maru-gothic#licensing-section)
 
-## frontend
+## Frontend
 
 [`vuejs`](https://vuejs.org/) SPA with
 [`primevue`](https://www.primefaces.org/primevue/)
 
-### theme
+### Theme
 
 modified [`sakai-vue`](https://github.com/primefaces/sakai-vue) theme
 with pieces from
@@ -98,12 +100,12 @@ with pieces from
 
 [`sakai-vue` demo](https://www.primefaces.org/sakai-vue/)
 
-## backend
+## Backend
 
 [`golang`](https://go.dev/) with
 [`fiber`](https://docs.gofiber.io/)
 
-### database
+### Database
 
 [`gorm`](https://gorm.io/) is used as a driver, so any of
 [these databases](https://gorm.io/docs/connecting_to_the_database.html)
@@ -111,13 +113,13 @@ can be used
 
 only `postgresql` is configured
 
-#### passwords
+#### Passwords
 
-passwords are hashed with [Argon2id](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html#argon2id),
+Passwords are hashed with [Argon2id](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html#argon2id),
 as suggested in
 [Password Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)
 
-## resources
+# Resources
 
 - architecture
 
