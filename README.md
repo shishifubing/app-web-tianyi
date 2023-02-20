@@ -9,29 +9,15 @@ SPA app for CI
 
 </div>
 
-# About The Project
+## About The Project
 
 There are too many great open source CI/CD tools out there to make another one
 
-<!-- relative links -->
-
-<!-- project links -->
-
-[url-repo]: https://github.com/shishifubing/app-web-tianyi
-[url-license]: https://github.com/shishifubing/app-web-tianyi/blob/main/LICENSE
-
-<!-- external links -->
-
-<!-- shield links -->
-
-[shield-license]: https://img.shields.io/github/license/shishifubing/app-web-tianyi.svg?style=for-the-badge
-[shield-status-abandoned]: https://img.shields.io/badge/status-abandoned-red?style=for-the-badge
-
-## Architecture diagram
+### Architecture diagram
 
 ![overview](./docs/diagrams/app-web-tianyi.drawio.svg)
 
-## Code structure
+### Code structure
 
 Clean architecture
 
@@ -77,7 +63,7 @@ tianyi
 └── web (Web interface)
 ```
 
-## Logo
+### Logo
 
 ![black logo](./web/public/images/logo-dark.svg)
 
@@ -87,12 +73,12 @@ they are made with [`google-font-to-svg-path`](https://danmarshall.github.io/goo
 using font
 [`zen-maru-gothic`](https://fonts.adobe.com/fonts/zen-maru-gothic#licensing-section)
 
-## Frontend
+### Frontend
 
 [`vuejs`](https://vuejs.org/) SPA with
 [`primevue`](https://www.primefaces.org/primevue/)
 
-### Theme
+#### Theme
 
 modified [`sakai-vue`](https://github.com/primefaces/sakai-vue) theme
 with pieces from
@@ -100,12 +86,12 @@ with pieces from
 
 [`sakai-vue` demo](https://www.primefaces.org/sakai-vue/)
 
-## Backend
+### Backend
 
 [`golang`](https://go.dev/) with
 [`fiber`](https://docs.gofiber.io/)
 
-### Database
+#### Database
 
 [`gorm`](https://gorm.io/) is used as a driver, so any of
 [these databases](https://gorm.io/docs/connecting_to_the_database.html)
@@ -119,7 +105,7 @@ Passwords are hashed with [Argon2id](https://cheatsheetseries.owasp.org/cheatshe
 as suggested in
 [Password Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)
 
-# Resources
+## Resources
 
 - architecture
 
@@ -162,3 +148,17 @@ as suggested in
 
   - https://github.com/primefaces/sakai-vue
   - https://github.com/primefaces/primevue
+  
+<!-- relative links -->
+
+<!-- project links -->
+
+[url-repo]: https://github.com/shishifubing/app-web-tianyi
+[url-license]: https://github.com/shishifubing/app-web-tianyi/blob/main/LICENSE
+
+<!-- external links -->
+
+<!-- shield links -->
+
+[shield-license]: https://img.shields.io/github/license/shishifubing/app-web-tianyi.svg?style=for-the-badge
+[shield-status-abandoned]: https://img.shields.io/badge/status-abandoned-red?style=for-the-badge
