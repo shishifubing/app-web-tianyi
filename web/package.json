@@ -20,7 +20,7 @@
         "swagger-ui": "^4.15.5",
         "vue": "^3.2.13",
         "vue-cookies": "^1.8.1",
-        "vue-router": "^4.0.3",
+        "vue-router": "^4.1.6",
         "vuex": "^4.0.0"
     },
     "devDependencies": {
