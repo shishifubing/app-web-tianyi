@@ -18,7 +18,7 @@
         "primevue": "^3.23.0",
         "prismjs": "^1.9.0",
         "swagger-ui": "^4.15.5",
-        "vue": "^3.2.13",
+        "vue": "^3.2.47",
         "vue-cookies": "^1.8.1",
         "vue-router": "^4.0.3",
         "vuex": "^4.0.0"
