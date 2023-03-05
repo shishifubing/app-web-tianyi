@@ -3,7 +3,14 @@ module gitlab.com/kongrentian-group/tianyi/v1
 go 1.18
 
 require (
+	github.com/casbin/casbin/v2 v2.51.2
+	github.com/casbin/gorm-adapter/v3 v3.7.4
+	github.com/go-git/go-billy/v5 v5.3.1
+	github.com/go-git/go-git/v5 v5.4.2
+	github.com/go-redis/redis/v8 v8.11.5
 	github.com/golang-jwt/jwt/v4 v4.4.2
+	github.com/gomodule/redigo v1.8.9
+	github.com/google/uuid v1.3.0
 	github.com/spf13/cobra v1.5.0
 	github.com/swaggo/swag v1.8.4
 )
@@ -17,30 +24,23 @@ require (
 	github.com/agext/levenshtein v1.2.1 // indirect
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/apparentlymart/go-textseg/v13 v13.0.0 // indirect
-	github.com/casbin/casbin/v2 v2.51.2 // indirect
-	github.com/casbin/gorm-adapter/v3 v3.7.4 // indirect
-	github.com/cespare/xxhash/v2 v2.1.2 // indirect
+	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/denisenkom/go-mssqldb v0.12.0 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/emirpasic/gods v1.12.0 // indirect
 	github.com/glebarez/go-sqlite v1.16.0 // indirect
 	github.com/glebarez/sqlite v1.4.3 // indirect
 	github.com/go-git/gcfg v1.5.0 // indirect
-	github.com/go-git/go-billy/v5 v5.3.1 // indirect
-	github.com/go-git/go-git/v5 v5.4.2 // indirect
 	github.com/go-openapi/jsonpointer v0.19.5 // indirect
 	github.com/go-openapi/jsonreference v0.20.0 // indirect
 	github.com/go-openapi/spec v0.20.6 // indirect
 	github.com/go-openapi/swag v0.22.0 // indirect
 	github.com/go-playground/locales v0.14.0 // indirect
 	github.com/go-playground/universal-translator v0.18.0 // indirect
-	github.com/go-redis/redis/v8 v8.11.5 // indirect
 	github.com/go-sql-driver/mysql v1.6.0 // indirect
 	github.com/golang-sql/civil v0.0.0-20220223132316-b832511892a9 // indirect
 	github.com/golang-sql/sqlexp v0.0.0-20170517235910-f1bb20e5a188 // indirect
-	github.com/gomodule/redigo v1.8.9 // indirect
 	github.com/google/go-cmp v0.5.8 // indirect
-	github.com/google/uuid v1.3.0 // indirect
 	github.com/imdario/mergo v0.3.12 // indirect
 	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
 	github.com/jackc/pgconn v1.13.0 // indirect
@@ -59,6 +59,7 @@ require (
 	github.com/mattn/go-isatty v0.0.14 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/go-wordwrap v0.0.0-20150314170334-ad45545899c7 // indirect
+	github.com/redis/go-redis/v9 v9.0.2 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20200410134404-eec4a21b6bb0 // indirect
 	github.com/robfig/cron v1.2.0 // indirect
 	github.com/sergi/go-diff v1.1.0 // indirect
@@ -85,7 +86,7 @@ require (
 	github.com/gocraft/work v0.5.1
 	github.com/gofiber/fiber/v2 v2.36.0
 	github.com/gofiber/jwt/v3 v3.2.14
-	github.com/gofiber/storage/redis v0.0.0-20220803173559-bdea86b669fe
+	github.com/gofiber/storage/redis v1.3.4
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/hashicorp/hcl/v2 v2.13.0
 	github.com/inconshreveable/mousetrap v1.0.1 // indirect
