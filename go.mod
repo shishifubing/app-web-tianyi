@@ -67,7 +67,7 @@ require (
 	github.com/valyala/fasthttp v1.38.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
 	github.com/xanzy/ssh-agent v0.3.0 // indirect
-	github.com/zclconf/go-cty v1.8.0 // indirect
+	github.com/zclconf/go-cty v1.12.1 // indirect
 	golang.org/x/net v0.8.0 // indirect
 	golang.org/x/tools v0.6.0 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
@@ -88,7 +88,7 @@ require (
 	github.com/gofiber/jwt/v3 v3.2.14
 	github.com/gofiber/storage/redis v1.3.4
 	github.com/hashicorp/hcl v1.0.0 // indirect
-	github.com/hashicorp/hcl/v2 v2.13.0
+	github.com/hashicorp/hcl/v2 v2.16.1
 	github.com/inconshreveable/mousetrap v1.0.1 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
