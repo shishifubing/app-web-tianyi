@@ -12,7 +12,7 @@ require (
 	github.com/gomodule/redigo v1.8.9
 	github.com/google/uuid v1.3.0
 	github.com/spf13/cobra v1.5.0
-	github.com/swaggo/swag v1.8.4
+	github.com/swaggo/swag v1.8.10
 )
 
 require (
