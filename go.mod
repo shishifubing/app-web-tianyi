@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/casbin/casbin/v2 v2.65.1
 	github.com/casbin/gorm-adapter/v3 v3.14.0
-	github.com/go-git/go-billy/v5 v5.4.0
+	github.com/go-git/go-billy/v5 v5.4.1
 	github.com/go-git/go-git/v5 v5.6.0
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/golang-jwt/jwt/v4 v4.4.2
