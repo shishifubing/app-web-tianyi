@@ -8,7 +8,7 @@ require (
 	github.com/go-git/go-billy/v5 v5.4.1
 	github.com/go-git/go-git/v5 v5.6.0
 	github.com/go-redis/redis/v8 v8.11.5
-	github.com/golang-jwt/jwt/v4 v4.4.2
+	github.com/golang-jwt/jwt/v4 v4.4.3
 	github.com/gomodule/redigo v1.8.9
 	github.com/google/uuid v1.3.0
 	github.com/spf13/cobra v1.6.1
@@ -89,7 +89,7 @@ require (
 	github.com/go-playground/validator/v10 v10.11.2
 	github.com/gocraft/work v0.5.1
 	github.com/gofiber/fiber/v2 v2.42.0
-	github.com/gofiber/jwt/v3 v3.2.14
+	github.com/gofiber/jwt/v3 v3.3.6
 	github.com/gofiber/storage/redis v1.3.4
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/hashicorp/hcl/v2 v2.16.1
