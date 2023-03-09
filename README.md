@@ -2,20 +2,16 @@
 
 # [`app-web-tianyi`][url-repo]
 
-</br>
-
-SPA for CI
-
-</br>
-
 [![License][badge-license]][url-license]
 [![Status][badge-status-abandoned]][url-repo]
+
+SPA for CI
 
 </div>
 
 ## About The Project
 
-In 2022 I've decided to make an SPA for CI using Golang and Vue.js. 
+In 2022 I've decided to make an SPA for CI using Golang for backend and Vue.js for frontend. 
 
 After several months of effort, I stopped working on it because there are too many great open source CI/CD tools out there to make another one.
 
@@ -166,5 +162,5 @@ as suggested in
 
 <!-- badge links -->
 
-[badge-license]: https://img.shields.io/github/license/shishifubing/app-web-tianyi.svg?style=for-the-badge
-[badge-status-abandoned]: https://img.shields.io/badge/status-abandoned-red?style=for-the-badge
+[badge-license]: https://img.shields.io/github/license/shishifubing/app-web-tianyi.svg
+[badge-status-abandoned]: https://img.shields.io/badge/status-abandoned-red
