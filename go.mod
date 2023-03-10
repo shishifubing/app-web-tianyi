@@ -92,7 +92,7 @@ require (
 	github.com/gofiber/jwt/v3 v3.3.6
 	github.com/gofiber/storage/redis v1.3.4
 	github.com/hashicorp/hcl v1.0.0 // indirect
-	github.com/hashicorp/hcl/v2 v2.16.1
+	github.com/hashicorp/hcl/v2 v2.16.2
 	github.com/inconshreveable/mousetrap v1.0.1 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
