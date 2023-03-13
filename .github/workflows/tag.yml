@@ -1,17 +1,12 @@
-name: Tag
+name: tag
 
 on:
   push:
     branches:
-      - "main"
-    paths-ignore:
-      - README.md
-      - docs/**
-      - .github/**/*.md
-      - .github/FUNDING.yml
-      - .github/ISSUE_TEMPLATE/**
+      - main
 
 jobs:
   tag:
-    uses: shishifubing/ci-actions-common/.github/workflows/tag.yml@main
+    name: reuse-tag
+    uses: shishifubing/ci-actions-common/.github/workflows/reuse-tag.yml@main
     secrets: inherit
