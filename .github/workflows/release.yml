@@ -1,0 +1,13 @@
+name: release
+
+on:
+  schedule:
+    # daily at 23:00 UTC
+    - cron: 0 23 * * *
+  workflow_dispatch:
+
+jobs:
+  release:
+    name: reuse-release
+    uses: shishifubing/ci-actions-common/.github/workflows/reuse-release.yml@main
+    secrets: inherit
