@@ -5,16 +5,16 @@ updates:
     schedule:
       interval: weekly
     commit-message:
-      prefix: ci
+      prefix: ci(deps)
     labels:
       - dependencies
 
   - package-ecosystem: gomod
     directory: /
     schedule:
-      interval: daily
+      interval: weekly
     commit-message:
-      prefix: build
+      prefix: build(deps)
     labels:
       - dependencies
       - build
