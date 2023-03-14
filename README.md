@@ -23,6 +23,10 @@ After several months of effort, I stopped working on it because there are too ma
 
 ![overview](./docs/diagrams/app-web-tianyi.drawio.svg)
 
+### Demo
+
+[url-demo]
+
 ### Code structure
 
 Clean architecture
@@ -167,6 +171,7 @@ as suggested in
 <!-- external links -->
 
 [url-conventionalcommits]: https://conventionalcommits.org
+[url-demo]: https://user-images.githubusercontent.com/97828377/225002074-5fe873ae-0a99-4eb1-850e-23e30a921d1f.webm
 
 <!-- badge links -->
 
